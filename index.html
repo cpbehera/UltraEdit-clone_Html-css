@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UltraEdit</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            list-style: none;
+            text-decoration: none;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        header{
+            width: 100vw;
+            height: 20vh;
+            padding: 0 6rem;
+        }
+        nav{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 1rem 0;
+        }
+        .logo{
+            height: 100%;
+            width: 12vw;
+        }
+        .logo img{
+            width: 100%;
+        }
+        ul{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        ul li{
+            margin: 0 15px;
+        }
+        ul li a{
+            color: #222222;
+            font-size: 16px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        ul li a span i{
+            margin-top: 10px;
+            font-size: 12px;
+        }
+
+        /* main */
+        main .container{
+            border: 1px solid red;
+            height: 50vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        main .container h2{
+            font-size: 45px;
+            font-weight: 100;
+        }
+        main .container p{
+            margin: 20px 0;
+            font-size: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="./UE_Logo.png" alt="">
+            </div>
+            <ul>
+                <li>
+                    <a href="#">Products <span><i class="fa-solid fa-angle-down"></i></span></a>
+                </li>
+                <li>
+                    <a href="#">Pricing <span><i class="fa-solid fa-angle-down"></i></span></a>
+                </li>
+                <li>
+                    <a href="#">Resources <span><i class="fa-solid fa-angle-down"></i></span></a>
+                </li>
+                <li>
+                    <a href="#">About us <span><i class="fa-solid fa-angle-down"></i></span></a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+        <div class="container">
+            <h2>Download <span style="font-weight: bold;">UltraEdit</span> for Windows <span><img src="./Reviews.png" alt=""></span></h2>
+            <p>Download and try UltraEdit before you buy it! This download includes the full Windows <br /> version of the text editor.</p>
+            <button><a href="#">Download Mac or Linux Version</a></button>
+        </div>
+    </main>
+
+
+
+    <!-- fontawesome kit -->
+    <script src="https://kit.fontawesome.com/08c259bb2c.js" crossorigin="anonymous"></script>
+</body>
+</html>
