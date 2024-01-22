@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UltraEdit</title>
+    <link rel="icon" type="image/x-icon" href="./android-chrome-192x192.png">
     <style>
         *{
             margin: 0;
@@ -52,7 +53,6 @@
 
         /* main */
         main .container{
-            border: 1px solid red;
             height: 50vh;
             display: flex;
             justify-content: center;
@@ -60,13 +60,31 @@
             flex-direction: column;
         }
         main .container h2{
-            font-size: 45px;
-            font-weight: 100;
+            font-size: 47px;
+            font-weight: 400;
         }
         main .container p{
             margin: 20px 0;
-            font-size: 20px;
+            font-size: 23px;
             text-align: center;
+        }
+        main .container button{
+            background-color: #00b5d1da;
+            outline: none;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        main .container button:hover{
+            background-color: #00B6D1;
+        }
+        main .container button a{
+            color: #fff;
+            font-size: 15px;
+            text-transform: uppercase;
+            font-weight: bold;
         }
     </style>
 </head>
